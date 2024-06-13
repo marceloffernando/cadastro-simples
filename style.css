@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+}
+div#imagem{
+    background: url(img/pexels-willianjusten-15829422.jpg)bottom no-repeat;
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 0, 0, 0.432);
+    height: 500px;
+    padding: 3px;
+
+}
+form > div > input[type=submit] {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    
+    
+}
