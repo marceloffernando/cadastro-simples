@@ -10,7 +10,7 @@
 <body>
     <main>
         <section id="login">
-            <form action="#">
+            <form action="#" onsubmit="login(event)">
                 <div id="imagem">
                 </div>
 
@@ -18,22 +18,20 @@
                     <h1>login</h1>
                     <p>
                         <label for="inome">Nome:</label>
-                        <input type="text" name="nome" id="inome">
+                        <input type="text" name="nome" id="inome" required>
                     </p>
                     <p>
                         <label for="isobre">Sobrenome:</label>
-                        <input type="text" name="Sobrenome" id="isobre">
-                    </p>
-                    <p>
-                        <label for="icel">Celular:</label>
-                        <input type="number" name="cel" id="icel">
+                        <input type="text" name="Sobrenome" id="isobre" required>
                     </p>
                 </div>
                 <div>
                     <input type="submit" value="Cadastrar">
                 </div>
+                <div id="res"></div>
             </form>
         </section>
+        <script src="script.js" ></script>
     </main>
 </body>
 </html>
