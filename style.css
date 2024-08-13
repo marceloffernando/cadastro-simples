@@ -9,7 +9,6 @@ div#imagem{
     height: 250px;
     width: 300px;
     background-size: cover;
-    
 }
 h1{
     text-align: center;
@@ -22,7 +21,6 @@ section#login{
     background-color: rgba(255, 0, 0, 0.432);
     height: 500px;
     padding: 3px;
-
 }
 form > div > input[type=submit] {
     display: block;
@@ -31,9 +29,14 @@ form > div > input[type=submit] {
     border-radius: 10px;
     cursor: pointer;
 }
+input[type=submit]:hover{
+    background-color: rgba(245, 66, 66, 0.253);
+}
 div#res{
-    background-image: linear-gradient(white , red);
     margin-top: 5px;
-    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
     border-radius: 10px;
+    text-align: center;
 }
